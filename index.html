@@ -1,49 +1,157 @@
-<!doctype html>
-
-<!-- this is a comment for human! -->
-
+<!DOCTYPE html>
 <html lang="en">
 
-  <header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayane Debbarh's Portal</title>
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="FaviconIcon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="name" content="Rayane Debbarh's Portal">
-    <meta name="robots" content="noindex, nofollow">
-    <style>
-        body {
-            min-height: 150vh;
-            overflow-y: auto;
-        }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rayane Debbarh's Portal</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="name" content="Rayane Debbarh's Portal">
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    body {
+      min-height: 150vh;
+      overflow-y: auto;
+      font-family: Arial, sans-serif;
+    }
 
-        html, body {
-            height: auto;
-        }
-    </style>
-  </header>
+    html, body {
+      height: auto;
+      margin: 20px;
+      padding: 0;
+    }
 
-  <body>
-    <img src="images/headshot.jpg" width="25%" alt="headshot">
-    <h1>Rayane Debbarh's Portal</h1>
-    <h2>About Me</h2>
-    <p>I am a sophomore student at Alma College, majoring in Computer Science and minoring in Business.</p>
-    <p>I am an athlete in the swimming team of my college, also I am a part-time employee at Starbucks.</p>
-    <p>I am an active member of Arabic, French, international, and Squirrel clubs of my college.</p>
-    <h2>Credentials and Portfolio</h2>
+    h2 {
+      color: #333366;
+    }
 
-    <p><a href="resume.html">My Resume</a> | <a href="https://github.com/rayanedrh1">My GitHub</a></p>
-    <h2>Contact</h2>
+    .date {
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #888;
+      margin-left: 10px;
+    }
 
-    <p>Email: <a href="mailto:ardebbarh@gmail.com">ardebbarh@gmail.com</p>
-  </body>
+    section {
+      margin-bottom: 40px;
+    }
+
+    a {
+      color: #0056cc;
+    }
+
+    ul {
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="images/headshot.jpg" width="25%" alt="headshot">
+  <h1>Rayane Debbarh's Portal</h1>
+
+  <h2>About Me</h2>
+  <p>I am a sophomore student at Alma College, majoring in Computer Science and minoring in Business.</p>
+  <p>I am an athlete in the swimming team of my college, also I am a part-time employee at Starbucks.</p>
+  <p>I am an active member of Arabic, French, international, and Squirrel clubs of my college.</p>
+
+  <h2>Credentials and Portfolio</h2>
+  <p><a href="resume.html">My Resume</a> | <a href="https://github.com/rayanedrh1">My GitHub</a></p>
+
+  <!-- INSERTED NEW SECTIONS BELOW -->
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Basketball Simulation <span class="date">December 2023</span></h3>
+      <ul>
+        <li>Developed a basketball simulation game using Python with Pygame, NumPy, and random.</li>
+        <li>Included sound effects and a basketball image for a more realistic experience.</li>
+        <li>Applied object-oriented programming to manage logic and visuals.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Interactive Shape Selector <span class="date">February 2024</span></h3>
+      <ul>
+        <li>Created a menu-driven shape selector using Python and PyCharm.</li>
+        <li>Allowed users to choose between triangles and quadrilaterals.</li>
+        <li>Drew selected shapes based on user input with if-else control.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>2D Multiplayer Game <span class="date">March 2024</span></h3>
+      <ul>
+        <li>Built a 2D fighting game using Pygame with custom characters, animations, and sound.</li>
+        <li>Implemented health tracking, collision detection, special moves, and UI screens.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Dice Game <span class="date">September 2024</span></h3>
+      <ul>
+        <li>Developed a Pig-style dice game in IntelliJ IDEA with structured OOP.</li>
+        <li>Created strategy simulation for evaluating player decisions.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Personal Website <span class="date">March 2025</span></h3>
+      <ul>
+        <li>Built this site as a final project in a Coursera HTML/CSS course.</li>
+        <li>Designed it from scratch and deployed it via GitHub Pages.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Certifications Section ===== -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div>
+      <h3>Build Your Portfolio Website with HTML and CSS</h3>
+      <p><strong>Coursera – Certificate Earned</strong></p>
+      <ul>
+        <li>Gained hands-on experience with HTML and CSS to structure and style web pages.</li>
+        <li>Designed and built a personal portfolio website from scratch.</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Full-Stack Web Development: PHP, HTML, CSS & JavaScript</h3>
+      <p><strong>Coursera – Offered by Board Infinity</strong></p>
+      <ul>
+        <li>Built a strong foundation in front-end and back-end web development.</li>
+        <li>Created responsive websites with HTML5, CSS3, and JavaScript.</li>
+        <li>Developed full-stack apps using Node.js, Express, and MongoDB.</li>
+        <li>Gained experience in building secure web apps using PHP.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Programming Languages:</strong> Python, C / C++, Java, HTML, CSS, SQL, MARIE Assembly, JavaScript</p>
+    <p><strong>Software Proficiency:</strong> Pygame, IntelliJ IDEA, Git, Raspberry Pi, Microsoft Office, PyCharm, GitHub</p>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><strong>Email:</strong> <a href="mailto:ardebbarh@gmail.com">ardebbarh@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+19893311943">(989) 331-1943</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rayane-debbarh" target="_blank" rel="noopener noreferrer">linkedin.com/in/rayane-debbarh</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/rayanedebbarh" target="_blank" rel="noopener noreferrer">github.com/rayanedebbarh</a></p>
+  </section>
 
   <footer>
     <hr>
     <code>Copyright (c) 2025 Rayane Debbarh</code>
   </footer>
 
+</body>
 </html>
