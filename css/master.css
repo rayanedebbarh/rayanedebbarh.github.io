@@ -61,3 +61,45 @@
     margin: 0 auto;
     text-align: left;
   }
+
+/* === Dark Mode Styling === */
+
+body {
+  background-color: #111;
+  color: #f2f2f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+a {
+  color: #4db8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 40px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+footer {
+  color: #888;
+  text-align: center;
+  margin-top: 40px;
+}
+
