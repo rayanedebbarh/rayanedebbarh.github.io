@@ -1,16 +1,24 @@
-/* ===== Light Mode (Default Theme) ===== */
+/* ===== Base Styling (Light Mode) ===== */
 body {
   background-color: #ffffff;
   color: #111111;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  margin: 20px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+main, section {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
 }
 
 h1, h2, h3 {
   color: #111111;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
+  margin-top: 40px;
 }
 
 a {
@@ -22,30 +30,30 @@ a:hover {
   text-decoration: underline;
 }
 
-section {
-  margin-top: 40px;
+ul {
+  margin: 15px auto;
+  padding-left: 0;
+  list-style: none;
+  text-align: left;
+  display: inline-block;
 }
 
-ul {
-  margin-top: 10px;
-  margin-left: 20px;
+ul li {
+  margin-bottom: 10px;
 }
 
 footer {
   color: #666;
-  text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
-/* ===== Dark Mode Styling ===== */
+/* ===== Dark Mode ===== */
 .dark-mode {
   background-color: #111111;
   color: #f2f2f2;
 }
 
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3 {
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
   color: #ffffff;
   border-color: #333;
 }
@@ -58,7 +66,7 @@ footer {
   color: #aaaaaa;
 }
 
-/* ===== Theme Toggle Button ===== */
+/* ===== Toggle Theme Button ===== */
 #theme-toggle {
   position: fixed;
   top: 20px;
@@ -67,7 +75,7 @@ footer {
   background-color: #333;
   color: #f2f2f2;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
